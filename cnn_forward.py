@@ -3,9 +3,6 @@ import numpy as np
 from tensorflow.keras.layers import Conv2D, Dense, BatchNormalization, Activation, MaxPool2D, Flatten
 from tensorflow.keras import Model
 import os
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-
 
 cifar10 = tf.keras.datasets.cifar10
 (x_train,y_train),(x_test,y_test)=cifar10.load_data()
